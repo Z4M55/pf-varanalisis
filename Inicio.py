@@ -111,8 +111,8 @@ st.markdown("""
 
 # Create map data for EAFIT (se mantiene exactamente como en tu código)
 eafit_location = pd.DataFrame({
-    'lat': [6.2006],
-    'lon': [-75.5783],
+    'lat': [6.17591],
+    'lon': [75.59174],
     'location': ['Universidad EAFIT']
 })
 
