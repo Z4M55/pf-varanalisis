@@ -117,7 +117,7 @@ eafit_location = pd.DataFrame({
 })
 
 # Display map (mantener mapa)
-st.subheader("📍 Ubicación de los Sensores - ENVIGADO - ZUÑIGA")
+st.subheader("📍 Ubicación de los Sensores - ENVIGADO / ZUÑIGA")
 st.map(eafit_location, zoom=15)
 
 # File uploader
