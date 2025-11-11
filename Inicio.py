@@ -113,11 +113,11 @@ st.markdown("""
 eafit_location = pd.DataFrame({
     'lat': [6.17591],
     'lon': [-75.59174],
-    'location': ['Universidad EAFIT']
+    'location': ['ENVIGADO']
 })
 
 # Display map (mantener mapa)
-st.subheader("📍 Ubicación de los Sensores - Universidad EAFIT")
+st.subheader("📍 Ubicación de los Sensores - ENVIGADO - ZUÑIGA")
 st.map(eafit_location, zoom=15)
 
 # File uploader
